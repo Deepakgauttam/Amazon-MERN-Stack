@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./Footer";
 import HomePageProductContainer from "./HomePageProduct/HomePageProductContainer";
 import ImageSlider from "./ImageSlider";
 import Navbar from "./Navbar";
@@ -9,6 +10,7 @@ function LandingPage() {
       <Navbar />
       <ImageSlider />
       <HomePageProductContainer />
+      <Footer/>
     </div>
   );
 }
