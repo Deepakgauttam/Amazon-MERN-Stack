@@ -3,7 +3,7 @@ import React from 'react'
 function Footer(props) {
 
   const { t, i18n } = props;
-  const rtl = ( i18n.languages[0] == 'pk' ? 'text-right' : '');
+  const rtl = ( i18n.languages[0] === 'pk' ? 'text-right' : '');
 
   return (
     <React.Fragment>
